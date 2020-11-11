@@ -1,0 +1,16 @@
+#title {
+    background-color: #ff4c68;
+}
+
+#title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#test {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}

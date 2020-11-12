@@ -22,7 +22,7 @@ p {
 }
 
 #container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 12%;
 }
 
 
@@ -61,18 +61,22 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 
 /* Featuer section */
 
 #features {
+    background-color: white;
     padding: 7% 15%;
+    position: relative;
 }
 
 .features-box {
     text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon {
@@ -88,7 +92,6 @@ p {
 /* Testimonial Serction */
 
 #testimonials {
-    /* padding: 7% 15%; */
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -113,4 +116,25 @@ p {
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.printcing-column {
+    padding: 3% 2%
+}
+
+@media(max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
 }

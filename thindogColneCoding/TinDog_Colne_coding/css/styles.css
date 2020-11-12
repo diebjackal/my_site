@@ -1,12 +1,19 @@
+* {
+    font-family: "Montserrat";
+}
+
 #title {
     background-color: #ff4c68;
     color: white;
 }
 
 #title h1 {
-    font-family: "Montserrat";
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
 }
 
 #container-fluid {
@@ -41,4 +48,33 @@
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+/* Featuer section */
+
+#features {
+    padding: 7% 15%;
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
 }

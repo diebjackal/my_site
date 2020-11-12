@@ -12,6 +12,11 @@
     line-height: 1.5;
 }
 
+#body h2 {
+    line-height: 2;
+    font-size: 3rem;
+}
+
 p {
     color: #8f8f8f;
 }
@@ -77,4 +82,35 @@ p {
 
 .icon:hover {
     color: #ff4c68;
+}
+
+
+/* Testimonial Serction */
+
+#testimonials {
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }

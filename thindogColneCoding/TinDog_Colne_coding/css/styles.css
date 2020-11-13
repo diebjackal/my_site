@@ -93,7 +93,7 @@ p {
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
+    background-color: #ff4c68;
     color: #fff;
 }
 
@@ -137,4 +137,31 @@ p {
         position: static;
         transform: rotate(0deg);
     }
+}
+
+
+/* CTA section */
+
+#cta h3 {
+    /* font-family: "Montserrat"; */
+    color: white;
+    font-size: 4rem;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+
+/* Fotter section */
+
+footer {
+    text-align: center;
+    padding: 7% 0%;
+}
+
+.snsIcon {
+    padding: 20px 10px;
 }

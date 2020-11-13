@@ -129,6 +129,10 @@ p {
     padding: 3% 2%
 }
 
+.card-body {
+    font-size: 1.3rem;
+}
+
 @media(max-width: 1028px) {
     #title {
         text-align: center;
